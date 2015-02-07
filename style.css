@@ -1,0 +1,33 @@
+body {
+	color : white;
+	background : #79C2A7;
+}
+h1 {
+	font-family: 'Montserrat', "futura", sans-serif;
+	text-align: center;
+	color: #462566;
+}
+h2 {
+	font-family: 'Montserrat', "futura", sans-serif;
+	text-align: right;
+	padding-right: 120px;
+	color: #462566;
+}
+p {
+	font-family: 'Quicksand', "futura", sans-serif;
+	text-align: center;
+	color: white;
+}
+div {
+	font-family: 'Quicksand', "futura", sans-serif;
+	text-align: right;
+	padding-right: 120px;
+}
+a:link {
+	color : white;
+	text-decoration : none;
+}
+a:visited {
+	color : white;
+	text-decoration : none;
+}
