@@ -1,0 +1,30 @@
+.wrapper {
+	width: 800px;
+	margin: auto;
+	border: 1px solid black;
+}
+.padded {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid red;
+}
+
+#header {
+	width: 758px;
+}
+#column1 {
+	width: 224.6px;
+	float: left;
+}
+#column2 {
+	width: 224.6px;
+	float: left;
+}
+#column3 {
+	width: 224.6px;
+	float: right;
+}
+#footer {
+	width: 758px;
+	clear: both;
+}
