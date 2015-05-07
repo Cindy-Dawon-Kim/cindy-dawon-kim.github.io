@@ -93,18 +93,11 @@ h2 {
   }
 }
 
-@media (min-width: 800px) {
-  .image {
-    width: 33%;
-  }
-}
-
 /* grid */
 .wrapper {
 	max-width: 1200px;
 	width: 100%;
 	margin: auto;
-  margin-top: 700px;
 }
 
 .grid {
