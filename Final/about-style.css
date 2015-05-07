@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 180px;
+}
+
+/* navigator */
+nav {
+  padding: 10px;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+}
+
+#nav {
+  background: black;
+}
+
+#link{
+  transition: 0.4s;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0 5px;
+  margin: 0 5px;
+}
+
+#link:hover {
+  background-color: white;
+  color: black;
+  padding: 5px 5px;
+}
+
+/* grid */
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.grid {
+  width: 100%;
+}
+
+.col2 {
+  margin: 1px;
+  float: left;
+  width: 48%;
+}
+
+.col4 {
+  margin: 1px;
+  float: left;
+  width: 23%;
+}
+
+/* images */
+.mh2 {
+  width: 250px;
+  margin-right: 0;
+}
+
+.text {
+  background-color: white;
+  color: black;
+}
+
+/*footer*/
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+li {
+  float: right;
+}
+
+.icon {
+  width: 25px;
+  margin: 1px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border-color: white;
+}
+
+.icon:hover {
+  -webkit-filter:invert(100%);
+  transition: 0.4s;
+}
+
+/* input */
+input[type=text] {
+  font-family: 'Questrial', sans-serif;
+  font-size: 14px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  width: 130px;
+}
+
+input[type=submit] {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  background: black;
+  color: white;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border-color: white;
+  margin-top: 5px;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: black;
+  transition: 0.4s;
+}
