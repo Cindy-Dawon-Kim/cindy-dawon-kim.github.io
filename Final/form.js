@@ -7,8 +7,9 @@ $(function() {
       dataType:"json",
       success: function(data){
         $("#return").html(
-          "Thank you for your subscription " + data["email"] + "!"
+          "Thank you for your subscription " + data["name"] + "!"
           );
+        });
       },
       error: function() {
         window.alert("Please fill in the requested fields!")
