@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 19px;
+  margin-bottom: 3px;
+  width: 180px;
+}
+
+/* navigator */
+nav {
+  padding: 10px;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .5px;
+}
+
+#nav {
+  background: black;
+  z-index: 3;
+}
+
+#link{
+  transition: 0.4s;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0 5px;
+  margin: 0 5px;
+}
+
+#link:hover {
+  background-color: white;
+  color: black;
+  padding: 5px 5px;
+}
+
+/* header */
+
+#image {
+  z-index: 1;
+  position: relative;
+  left:0;
+  top:0;
+  width: 100%;
+  display: block;
+}
+
+#text{
+  font-size: 17px;
+  line-height: 2;
+  font-family: 'Questrial', sans-serif;
+  margin: 20px;
+}
+
+/* grid */
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.grid {
+  width: 100%;
+}
+
+.col1 {
+  padding-top: 50px;
+  margin: 1px;
+  width: 98%;
+  float: left;
+}
+
+.col2 {
+  margin: 1px;
+  width: 48%;
+  float: left;
+}
+
+.col4 {
+  margin: 1px;
+  width: 23%;
+  float: left;
+}
+
+.margin {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*footer*/
+footer{
+  display: block;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .5px;
+  font-size: 16px;
+  color: black;
+}
+
+li {
+  float: right;
+  list-style-type: none;
+}
+
+.icon {
+  width: 25px;
+  margin: 1px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border-color: white;
+}
+
+.icon:hover {
+  -webkit-filter:invert(100%);
+  transition: 0.4s;
+}
+
+.copyright {
+  font-size: 14px;
+  color: black;
+  font-family: 'Questrial', sans-serif;
+  text-align: right;
+}
+
+/* input */
+input[type=text] {
+  font-family: 'Questrial', sans-serif;
+  font-size: 14px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border-color: black;
+  width: 130px;
+  height: 23px;
+}
+
+input[type=submit] {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .5px;
+  font-size: 14px;
+  background: black;
+  color: white;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border-color: black;
+  margin-top: 5px;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: black;
+  transition: 0.4s;
+}
